@@ -1,3 +1,13 @@
+# 欢迎来到 Minecraft 版本库文档站
+这里是 Hottampist 的 Minecraft 版本库的文档站。主要用于追踪我们的计划进度，并汇集各种备份 Minecraft 的教程。网址如下：
+ - https://mcarcunion.github.io/
+ - https://mcarcunion.vercel.app/
+
+Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft 安卓版版本库。网址如下：
+ - https://mcarc.gitee.io/
+ - https://mcarc.github.io/ （备用）
+
+----
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MCArcUnion/MCArcUnion.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
