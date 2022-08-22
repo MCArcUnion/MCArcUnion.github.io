@@ -45,7 +45,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td colspan="6">WIP</td>
   </tr>
 </table>
-
+<br>
 https://github.github.com/gfm/#blocks-and-inlines
 
 Table 是 leaf block，里面不能包含其他的 block（样式）。
