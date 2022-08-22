@@ -22,7 +22,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>Hottampist</td>
     <td>原版包：很全</td>
     <td>—</td>
-    <td>—</td>
+    <td>原版包：很全</td>
     <td>正在维护</td>
   </tr>
   <tr>
