@@ -50,7 +50,7 @@ https://github.github.com/gfm/#blocks-and-inlines
 
 Table 是 leaf block，里面不能包含其他的 block（样式）。
 
-链接请用 \<a href=""></a>
+链接请用 \<a href="">\</a>
 
 ----
 <!-- ## Welcome to GitHub Pages
