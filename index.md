@@ -37,8 +37,8 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td><a href="https://mc.minebbs.net/">mc.minebbs.net</a></td>
     <td>YYT</td>
     <td>破解包：不全 *</td>
-    <td>破解包：不全</td>
-    <td>破解包：不全</td>
+    <td>提取包：不全</td>
+    <td>原版包：不全</td>
     <td>正在维护</td>
   </tr>
   <tr>
