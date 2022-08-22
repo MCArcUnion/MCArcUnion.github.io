@@ -8,7 +8,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
  - [mcarc.github.io](https://mcarc.github.io/)（备用）
 
 <table>
-  <caption>Minecraft 版本库一览表<br>标 \* 的表示资源来自于 zihao_il</caption>
+  <caption>Minecraft 版本库一览表<br>标 * 的表示资源来自于 zihao_il</caption>
   <tr>
     <th>网址</th>
     <th>运营者</th>
@@ -18,7 +18,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <th>维护状态</th>
   </tr>
   <tr>
-    <td>[mcarc.gitee.io](https://mcarc.gitee.io/)<br>[mcarc.github.io](https://mcarc.github.io/)（备用）</td>
+    <td><a href="https://mcarc.gitee.io/">mcarc.gitee.io</a><br><a href="https://mcarc.github.io/">mcarc.github.io</a>（备用）</td>
     <td>Hottampist</td>
     <td>原版包：很全</td>
     <td>—</td>
@@ -26,17 +26,17 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>正在维护</td>
   </tr>
   <tr>
-    <td>[mcapks.com](https://mcapks.com/)</td>
+    <td><a href="https://mcapks.com/">mcapks.com</a></td>
     <td>苦力怕纸</td>
-    <td>破解包：较全\*</td>
+    <td>破解包：较全 *</td>
     <td>—</td>
     <td>—</td>
     <td>正在维护</td>
   </tr>
   <tr>
-    <td>[mc.minebbs.net](https://mc.minebbs.net/)</td>
+    <td><a href="https://mc.minebbs.net/">mc.minebbs.net</a></td>
     <td>YYT</td>
-    <td>破解包：不全\*</td>
+    <td>破解包：不全 *</td>
     <td>破解包：不全</td>
     <td>破解包：不全</td>
     <td>正在维护</td>
@@ -46,8 +46,11 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
   </tr>
 </table>
 
-|网址|发起人|平台|进度|维护状态|
-|----|------|----|----|--------|
+https://github.github.com/gfm/#blocks-and-inlines
+
+Table 是 leaf block，里面不能包含其他的 block（样式）。
+
+链接请用 <a href=""></a>
 
 ----
 ## Welcome to GitHub Pages
