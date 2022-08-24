@@ -48,28 +48,28 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
   <tr>
     <td><a href="https://mc233.endyun.ltd/">mc233.endyun.ltd</a></td>
     <td>枫轻舞</td>
+    <td>破解包：较全 *</td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>正在维护</td>
   </tr>
   <tr>
     <td><a href="https://mcbbk.blmcpia.com">mcbbk.blmcpia.com</a></td>
-    <td>像素科技</td>
+    <td>小黑纸菌</td>
+    <td>破解包：较全 *</td>
     <td></td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>正在维护</td>
   </tr>
   <tr>
     <td><a href="https://pan.baidu.com/s/1NQPY3LK0tPMCNGW7xOLgkA?pwd=49r1">（百度网盘）</a></td>
     <td>Janwrice</td>
+    <td>原版包：较全</td>
     <td></td>
     <td></td>
-    <td></td>
-    <td></td>
+    <td>原版包：不全</td>
     <td>停止维护</td>
   </tr>
   <tr>
@@ -79,10 +79,10 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td></td>
     <td></td>
     <td></td>
-    <td>xx维护</td>
+    <td>停止维护</td>
   </tr>
   <tr>
-    <td><a href="https://pan.baidu.com/s/1s1e_pRfRQ3d3ypsS1MkTPQ">（百度网盘，提取码o3g5）</a></td>
+    <td><a href="https://pan.baidu.com/s/1s1e_pRfRQ3d3ypsS1MkTPQ?pwd=o3g5">（百度网盘，提取码）</a></td>
     <td>Ltabsyy</td>
     <td></td>
     <td></td>
@@ -96,17 +96,17 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>—</td>
     <td>—</td>
     <td>—</td>
-    <td>原版包：？</td>
-    <td>xx维护</td>
+    <td>原版包：较全</td>
+    <td>正在维护</td>
   </tr>
   <tr>
     <td><a href="https://cloud.189.cn/t/VZJjy2Y77NBb">（天翼云盘）</a><br><a href="https://pan.baidu.com/s/1W-ZtXEHXNRdOs7PD6JdRxQ">（百度网盘）</a></td>
     <td>MCFreeGod</td>
     <td>—</td>
     <td>—</td>
-    <td>原版包：？</td>
+    <td>原版包：较全</td>
     <td>—</td>
-    <td>xx维护</td>
+    <td>停止维护</td>
   </tr>
   <!-- <tr>
     <td><a href=""></a></td>
