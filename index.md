@@ -15,6 +15,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <th>Android</th>
     <th>iOS</th>
     <th>Windows</th>
+    <th>教育版 Android</th>
     <th>维护状态</th>
   </tr>
   <tr>
@@ -23,6 +24,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>原版包：很全</td>
     <td>—</td>
     <td>原版包：很全</td>
+    <td>—</td>
     <td>正在维护</td>
   </tr>
   <tr>
@@ -31,28 +33,103 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>破解包：较全 *</td>
     <td>—</td>
     <td>—</td>
+    <td>—</td>
     <td>正在维护</td>
   </tr>
   <tr>
     <td><a href="https://mc.minebbs.net/">mc.minebbs.net</a></td>
     <td>YYT</td>
     <td>破解包：不全 *</td>
-    <td>提取包：不全</td>
     <td>原版包：不全</td>
+    <td>原版包：不全</td>
+    <td>—</td>
     <td>正在维护</td>
   </tr>
   <tr>
-    <td colspan="6">WIP</td>
+    <td><a href="https://mc233.endyun.ltd/">mc233.endyun.ltd</a></td>
+    <td>枫轻舞</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://mcbbk.blmcpia.com">mcbbk.blmcpia.com</a></td>
+    <td>像素科技</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><a href="https://pan.baidu.com/s/1NQPY3LK0tPMCNGW7xOLgkA?pwd=49r1">（百度网盘）</a></td>
+    <td>Janwrice</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>停止维护</td>
+  </tr>
+  <tr>
+    <td><a href="https://archive.org/details/MCPEAlpha">（互联网档案馆）</a></td>
+    <td>rufus10？ArcticFromClosed？</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>xx维护</td>
+  </tr>
+  <tr>
+    <td><a href="https://pan.baidu.com/s/1s1e_pRfRQ3d3ypsS1MkTPQ">（百度网盘，提取码o3g5）</a></td>
+    <td>Ltabsyy</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>停止维护</td>
+  </tr>
+  <tr>
+    <td><a href="https://pan.baidu.com/s/1mqGUtrtM76K7jKRsJYQEYw?pwd=2333">（百度网盘）</a><br><a href="https://www.123pan.com/s/dhm9-jJN0A">（123云盘）</a></td>
+    <td>zihao_il</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>原版包：？</td>
+    <td>xx维护</td>
+  </tr>
+  <tr>
+    <td><a href="https://cloud.189.cn/t/VZJjy2Y77NBb">（天翼云盘）</a><br><a href="https://pan.baidu.com/s/1W-ZtXEHXNRdOs7PD6JdRxQ">（百度网盘）</a></td>
+    <td>MCFreeGod</td>
+    <td>—</td>
+    <td>—</td>
+    <td>原版包：？</td>
+    <td>—</td>
+    <td>xx维护</td>
+  </tr>
+  <!-- <tr>
+    <td><a href=""></a></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>xx维护</td>
+  </tr> -->
+  <tr>
+    <td colspan="7">WIP</td>
   </tr>
 </table>
-<br>
+
+----
+
 https://github.github.com/gfm/#blocks-and-inlines
 
 Table 是 leaf block，里面不能包含其他的 block（样式）。
 
-链接请用 \<a href="">\</a>
+链接请用 <code>\<a href="">\</a></code>
 
-----
 <!-- ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/MCArcUnion/MCArcUnion.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
