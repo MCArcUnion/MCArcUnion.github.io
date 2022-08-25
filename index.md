@@ -118,7 +118,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>xx维护</td>
   </tr> -->
   <tr>
-    <td colspan="7">WIP</td>
+    <td style="text-align:center;" colspan="7">WIP</td>
   </tr>
 </table>
 
