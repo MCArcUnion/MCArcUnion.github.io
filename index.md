@@ -7,7 +7,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
  - [mcarc.gitee.io](https://mcarc.gitee.io/)
  - [mcarc.github.io](https://mcarc.github.io/)（备用）
 
-<table>
+<table style="text-align: center">
   <caption>Minecraft 版本库一览表<br>标 * 的表示资源来自于 zihao_il</caption>
   <tr>
     <th>网址</th>
