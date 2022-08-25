@@ -1,5 +1,6 @@
 /* Documentation: https://just-the-docs.github.io/just-the-docs/docs/customization/#override-and-completely-custom-styles */
-@media (min-width: 50rem)
-.main {
-    max-width: 1200px;
+@media (min-width: 50rem) {
+    .main {
+        max-width: 1200px;
+    }
 }
