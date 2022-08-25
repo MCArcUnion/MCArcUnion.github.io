@@ -82,7 +82,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>停止维护</td>
   </tr>
   <tr>
-    <td><a href="https://pan.baidu.com/s/1s1e_pRfRQ3d3ypsS1MkTPQ?pwd=o3g5">（百度网盘，提取码）</a></td>
+    <td><a href="https://pan.baidu.com/s/1s1e_pRfRQ3d3ypsS1MkTPQ?pwd=o3g5">（百度网盘）</a></td>
     <td>Ltabsyy</td>
     <td></td>
     <td></td>
