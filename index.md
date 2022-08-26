@@ -40,7 +40,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td><a href="https://mc.minebbs.net/">mc.minebbs.net</a></td>
     <td>YYT</td>
     <td>破解包：不全 *</td>
-    <td>原版包：不全</td>
+    <td>原版包：不全 *</td>
     <td>原版包：不全</td>
     <td>—</td>
     <td>正在维护</td>
@@ -74,7 +74,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
   </tr>
   <tr>
     <td><a href="https://archive.org/details/MCPEAlpha">（互联网档案馆）</a></td>
-    <td>ArcticFromClosed</td>
+    <td>Omniarchive</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
