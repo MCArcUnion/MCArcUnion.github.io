@@ -74,7 +74,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
   </tr>
   <tr>
     <td><a href="https://archive.org/details/MCPEAlpha">（互联网档案馆）</a></td>
-    <td>ArcticFromClosed</td>
+    <td>Omniarchive</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
