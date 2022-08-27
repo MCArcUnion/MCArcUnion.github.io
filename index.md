@@ -28,6 +28,15 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>正在维护</td>
   </tr>
   <tr>
+    <td><a href="https://zihao-il.github.io/">zihao-il.github.io</a></td>
+    <td>zihao_il</td>
+    <td>破解包：不全 *</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+    <td>正在维护</td>
+  </tr>
+  <tr>
     <td><a href="https://mcapks.com/">mcapks.com</a></td>
     <td>苦力怕纸</td>
     <td>破解包：较全 *</td>
