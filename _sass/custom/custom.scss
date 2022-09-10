@@ -1,6 +1,19 @@
-/* Documentation: https://just-the-docs.github.io/just-the-docs/docs/customization/#override-and-completely-custom-styles */
+/*  自定义 CSS
+ *  在构建完成之后，您可能需要清除浏览器缓存才能看到所作出的变更的影响。
+ *  Just the Docs 官方文档： https://just-the-docs.github.io/just-the-docs/docs/customization/#override-and-completely-custom-styles
+ */
 @media (min-width: 50rem) {
   .main {
     max-width: 1200px;
+  }
+}
+
+@media (min-width: 66.5rem) {
+  .side-bar {
+    width: 264px;
+  }
+
+  .main {
+    margin-left: 264px;
   }
 }
