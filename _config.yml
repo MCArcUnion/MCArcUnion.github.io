@@ -1,1 +1,5 @@
+name: MCArcUnion
+description: Hottampist 的 Minecraft 版本库文档站
+url: "https://mcarcunion.github.io"
+markdown: gfm
 remote_theme: just-the-docs/just-the-docs
