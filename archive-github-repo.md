@@ -9,35 +9,40 @@
 通常情况下，我们从 GitHub 拉取 Git 仓库到本地时，会使用如下命令：
 
 ```
-git clone https://github.com/*username*/*reponame*.git
+git clone https://github.com/username/reponame.git
 ```
 
-代码块里不能用斜体！！
+代码块里不能用斜体！！气死我了不管了
 
 <pre><code>git clone https://github.com/<em>username</em>/<em>reponame</em>.git</code></pre>
 
-这样可以克隆绝大部分东西，比如所有的提交（commit），但是，blah blah
+其中 `username` 是用户名，`reponame` 是仓库名。这样可以克隆绝大部分东西，比如所有的提交（commit），但是，blah blah
 
 为了确保我们可以克隆到尽可能多的东西，我们必须花费一些心思了：
 
-### 寻找完整的仓库
+### 寻找原始的仓库
 首先，我们需要找到尽可能原始的仓库：
 
-1.  直接克隆 GitHub 上的原始仓库。
-    原仓库包含最全面的信息。
-    <pre><code>git clone --mirror https://github.com/<em>username</em>/<em>reponame</em>.git</code></pre>
-2.  克隆 GitHub 上对原仓库的复刻（fork）。
+1.  直接克隆 GitHub 上的主仓库（？）。
+    主仓库包含最全面的信息。
+    ```
+    git clone --mirror https://github.com/username/reponame.git
+    ```
+    使用 `--mirror` 参数可以额外克隆remote branches和other refs，它们可能有用处但用处不大，所以即使没能使用 `--mirror` 参数克隆到原仓库也不必懊恼。
+2.  克隆 GitHub 上对主仓库的复刻（fork）。
     如果原仓库已经被删除，那么你可以找找看有没有留存下来的复刻。
+    但是，不是所有的复刻都与主仓库相同。有些复刻的创建者可能在复刻后忘了及时更新（在以前这比较麻烦，但现在只需点击“”），导致复刻落后于主仓库；
+    下表中使用“落后”、“等价”和“超前”来表示各个复刻与主仓库之间的关系。其中“落后”指该复刻缺少主仓库的部分提交；“等价”指该复刻的提交与主仓库的提交完全相同；“超前”指该复刻在主仓库的基础上另有修改。
     <details><summary>BedrockX及其现存复刻（fork）列表</summary>
     
-    （主分支以提交 `11b79dbede565a0e58c82a3e5011dc5bf67ceb37` 为准）
+    （主分支以提交 `11b79dbede565a0e58c82a3e5011dc5bf67ceb37` 为准）（落后与超前有争议）
     | 分支                  | 提交（commit）数量 | 与主分支的关系 |
     | --------------------- | ------------------ | -------------- |
-    | Sysca11（原主分支）   |                 57 | 主分支          |
+    | Sysca11（原主分支）   |                 57 | 主分支         |
     | 3JoB                  |                 58 | 超前           |
-    | allankevinrichie      |                 59 | 落后           |
+    | allankevinrichie      |                 59 | 落后且超前     |
     | CivicXFB              |                 57 | 等价           |
-    | Extollite（现主分支）  |                 31 | 落后           |
+    | Extollite（现主分支） |                 31 | 落后           |
     | hapi888               |                 57 | 等价           |
     | jfishing              |                 57 | 等价           |
     | mclk623               |                 57 | 等价           |
