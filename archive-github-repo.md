@@ -28,138 +28,32 @@ git clone https://github.com/*username*/*reponame*.git
     <pre><code>git clone --mirror https://github.com/<em>username</em>/<em>reponame</em>.git</code></pre>
 2.  克隆 GitHub 上对原仓库的复刻（fork）。
     如果原仓库已经被删除，那么你可以找找看有没有留存下来的复刻。
-    <details>
-        <summary>点击显示或隐藏表格</summary>
-        <!-- Formatted by VSCode -->
-        <table>
-            <caption>BedrockX及其现存复刻（fork）列表</caption>
-            <thead>
-                <tr>
-                    <th>分支</th>
-                    <th>提交（commit）数量</th>
-                    <th>与主分支的关系</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr style="opacity: 0.5">
-                    <td>Sysca11（原主分支）</td>
-                    <td>57</td>
-                    <td>—</td>
-                </tr>
-                <tr>
-                    <td>3JoB</td>
-                    <td>58</td>
-                    <td>有冗余</td>
-                </tr>
-                <tr>
-                    <td>allankevinrichie</td>
-                    <td>59</td>
-                    <td>有缺失，有冗余</td>
-                </tr>
-                <tr>
-                    <td>CivicXFB</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>Extollite（现主分支）</td>
-                    <td>31</td>
-                    <td>有缺失</td>
-                </tr>
-                <tr>
-                    <td>hapi888</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>jfishing</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>mclk623</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>moxisuki</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>oldsheep0205</td>
-                    <td>43</td>
-                    <td>有缺失</td>
-                </tr>
-                <tr>
-                    <td>Rhycraft</td>
-                    <td>33</td>
-                    <td>有缺失</td>
-                </tr>
-                <tr>
-                    <td>SakuranaRanbom</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>saranfeishuang</td>
-                    <td>46</td>
-                    <td>有缺失</td>
-                </tr>
-                <tr>
-                    <td>ShrBox</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>SkipM4</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>untitledunrevised</td>
-                    <td>31</td>
-                    <td>有缺失</td>
-                </tr>
-                <tr>
-                    <td>whoismek</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-                <tr>
-                    <td>WillowSauceR</td>
-                    <td>58</td>
-                    <td>有冗余</td>
-                </tr>
-                <tr>
-                    <td>yzu999</td>
-                    <td>57</td>
-                    <td>等价</td>
-                </tr>
-            </tbody>
-        </table>
+    <details><summary>BedrockX及其现存复刻（fork）列表</summary>
+    
+    （主分支以提交 `11b79dbede565a0e58c82a3e5011dc5bf67ceb37` 为准）
+    | 分支                  | 提交（commit）数量 | 与主分支的关系 |
+    | --------------------- | ------------------ | -------------- |
+    | Sysca11（原主分支）   |                 57 | 主分支          |
+    | 3JoB                  |                 58 | 超前           |
+    | allankevinrichie      |                 59 | 落后           |
+    | CivicXFB              |                 57 | 等价           |
+    | Extollite（现主分支）  |                 31 | 落后           |
+    | hapi888               |                 57 | 等价           |
+    | jfishing              |                 57 | 等价           |
+    | mclk623               |                 57 | 等价           |
+    | moxisuki              |                 57 | 等价           |
+    | oldsheep0205          |                 43 | 落后           |
+    | Rhycraft              |                 33 | 落后           |
+    | SakuranaRanbom        |                 57 | 等价           |
+    | saranfeishuang        |                 46 | 落后           |
+    | ShrBox                |                 57 | 等价           |
+    | SkipM4                |                 57 | 等价           |
+    | untitledunrevised     |                 31 | 落后           |
+    | whoismek              |                 57 | 等价           |
+    | WillowSauceR          |                 58 | 超前           |
+    | yzu999                |                 57 | 等价           |
+
     </details>
-<!--   | 分支                  | 提交（commit）数量 | 与主分支的关系 |
-   | --------------------- | ------------------ | -------------- |
-   | Sysca11（原主分支）   |                 57 | 主分支         |
-   | 3JoB                  |                 58 | 有冗余         |
-   | allankevinrichie      |                 59 | 有缺失，有冗余 |
-   | CivicXFB              |                 57 | 等价           |
-   | Extollite（现主分支） |                 31 | 有缺失         |
-   | hapi888               |                 57 | 等价           |
-   | jfishing              |                 57 | 等价           |
-   | mclk623               |                 57 | 等价           |
-   | moxisuki              |                 57 | 等价           |
-   | oldsheep0205          |                 43 | 有缺失         |
-   | Rhycraft              |                 33 | 有缺失         |
-   | SakuranaRanbom        |                 57 | 等价           |
-   | saranfeishuang        |                 46 | 有缺失         |
-   | ShrBox                |                 57 | 等价           |
-   | SkipM4                |                 57 | 等价           |
-   | untitledunrevised     |                 31 | 有缺失         |
-   | whoismek              |                 57 | 等价           |
-   | WillowSauceR          |                 58 | 有冗余         |
-   | yzu999                |                 57 | 等价           | -->
 3.  从自己或他人的存储中取得。
     如果原仓库已经被删除，而且所有的复刻都被删除或者不完整（判断复刻是否完整的方法见上），那么你只能试着从自己私人存储中寻找仓库，或者询问其他相关的人（比如开发者），看看他们有没有留存备份。
 
