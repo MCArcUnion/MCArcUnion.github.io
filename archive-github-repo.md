@@ -14,9 +14,9 @@ git clone https://github.com/username/reponame.git
 
 代码块里不能用斜体！！气死我了不管了
 
-<pre><code>git clone https://github.com/<em>username</em>/<em>reponame</em>.git</code></pre>
+~~<pre><code>git clone https://github.com/<em>username</em>/<em>reponame</em>.git</code></pre>~~
 
-其中 `username` 是用户名，`reponame` 是仓库名。这样可以克隆绝大部分东西，比如所有的提交（commit），但是，blah blah
+其中 `username` 是用户名，`reponame` 是仓库名。这样可以克隆绝大部分东西，比如所有的提交（commit），但是，现实远比这复杂。
 
 为了确保我们可以克隆到尽可能多的东西，我们必须花费一些心思了：
 
@@ -24,25 +24,30 @@ git clone https://github.com/username/reponame.git
 首先，我们需要找到尽可能原始的仓库：
 
 1.  直接克隆 GitHub 上的主仓库（？）。
+
     主仓库包含最全面的信息。
-    ```
-    git clone --mirror https://github.com/username/reponame.git
-    ```
+
     使用 `--mirror` 参数可以额外克隆remote branches和other refs，它们可能有用处但用处不大，所以即使没能使用 `--mirror` 参数克隆到原仓库也不必懊恼。
+
 2.  克隆 GitHub 上对主仓库的复刻（fork）。
+
     如果原仓库已经被删除，那么你可以找找看有没有留存下来的复刻。
-    但是，不是所有的复刻都与主仓库相同。有些复刻的创建者可能在复刻后忘了及时更新（在以前这比较麻烦，但现在只需点击“”），导致复刻落后于主仓库；
-    下表中使用“落后”、“等价”和“超前”来表示各个复刻与主仓库之间的关系。其中“落后”指该复刻缺少主仓库的部分提交；“等价”指该复刻的提交与主仓库的提交完全相同；“超前”指该复刻在主仓库的基础上另有修改。
+
+    但是，不是所有的复刻都与主仓库相同。有些复刻的创建者可能在复刻后忘了及时更新（在以前这比较麻烦，但现在只需点击“Sync fork”即可），导致复刻落后于主仓库；有些复刻的创建者可能会向复刻中加入自己的提交（比如，使用Pull Request来更新复刻，或者添加一些小功能），但大多数添加都不是很重要。
+
+    下表中使用“落后”、“超前”和“等价”来表示各个复刻与主仓库之间的关系。其中“落后”指该复刻缺少主仓库的部分提交；“超前”指该复刻加入了主仓库所没有的提交；“等价”指该复刻的提交与主仓库的提交完全相同。判断复刻是否等价的方法非常简单：只需看该复刻的最后一次提交与主仓库的（`11b79db`）是否相同。
+
     <details><summary>BedrockX及其现存复刻（fork）列表</summary>
-    
-    （主分支以提交 `11b79dbede565a0e58c82a3e5011dc5bf67ceb37` 为准）（落后与超前有争议）
-    | 分支                  | 提交（commit）数量 | 与主分支的关系 |
+
+    （主仓库以提交 `11b79dbede565a0e58c82a3e5011dc5bf67ceb37` 为准）（落后与超前有争议）
+
+    | 仓库                  | 提交（commit）数量 | 与主仓库的关系 |
     | --------------------- | ------------------ | -------------- |
-    | Sysca11（原主分支）   |                 57 | 主分支         |
+    | Sysca11（原主仓库）   |                 57 | —             |
     | 3JoB                  |                 58 | 超前           |
     | allankevinrichie      |                 59 | 落后且超前     |
     | CivicXFB              |                 57 | 等价           |
-    | Extollite（现主分支） |                 31 | 落后           |
+    | Extollite（现主仓库） |                 31 | 落后           |
     | hapi888               |                 57 | 等价           |
     | jfishing              |                 57 | 等价           |
     | mclk623               |                 57 | 等价           |
@@ -59,16 +64,32 @@ git clone https://github.com/username/reponame.git
     | yzu999                |                 57 | 等价           |
 
     </details>
+
 3.  从自己或他人的存储中取得。
-    如果原仓库已经被删除，而且所有的复刻都被删除或者不完整（判断复刻是否完整的方法见上），那么你只能试着从自己私人存储中寻找仓库，或者询问其他相关的人（比如开发者），看看他们有没有留存备份。
+
+    如果原仓库已经被删除，而且所有的复刻都被删除或者不完整（判断复刻是否完整的方法见上），那么你只能试着从自己的私人存储中寻找仓库，或者询问其他相关的人（比如开发者），看看他们有没有留存备份。
 
 如果以上的方法都没有奏效，那么很不幸，你只能选择一份尽可能原始的仓库进行存档了。
 
 ### 克隆仓库
 *如果你通过方法 3 找到了仓库，请把它复制到你的工作目录下，然后跳过这一（段落or章节？）。*
 
+克隆仓库，并下载所有LFS文件：
+
+```
+git clone --mirror https://github.com/username/reponame.git
+cd reponame.git
+git lfs fetch --all
+```
+
 ### bundle 仓库
+```
+git bundle create "../GitHub username reponame.bundle" --all
+```
 
 ## 存档 Releases
 
 ## 存档 Issues 与 Pull Requests
+
+## 存档 Wiki
+GitHub 仓库中的 Wiki 本质上就是一个 Git 仓库，你可以使用上面的方法克隆并 bundle 它。
