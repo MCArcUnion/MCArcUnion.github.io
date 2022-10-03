@@ -24,12 +24,12 @@ Android 版加入过两次正版验证。第一次是从携带版0.1.0到携带�
 + 找到`a(Lcom/android/vending/licensing/t;)V`方法
 + 找到`if-eqz v0, :cond_15`,改为`if-ne v0, v0, :cond_15`
 ### 基岩版1.2.0.7至1.16.100.53
-#### 方案一[1]
+#### 方案一\[1\]
 + 使用MT管理器的"Dex编辑器++"功能打开Minecraft安装包的classes.dex
 + 找到`com.googleplay.licensing.LicenseChecker`类
 + 找到`checkAccess`方法
 + 找到`if-eqz v1, :cond_17`,删掉
-#### 方案二[2]
+#### 方案二\[2\]
 + 使用MT管理器的"Dex编辑器++"功能打开Minecraft安装包的classes.dex
 + 找到`com.googleplay.licensing.ServerManagedPolicy`类
 + 找到`allowAccess`方法
@@ -48,7 +48,7 @@ Android 版加入过两次正版验证。第一次是从携带版0.1.0到携带�
 + 1.16.100.53以后通过葫芦侠三楼的破解器破解Minecraft可能会导致Minecraft闪退
 
 ## 资料来源
-[1]:[【教程】某些游戏中Google Play 许可证验证的简单除方法](http://bbs.huluxia.com/wap/thread/875715.html?para=37Hftt%2Bz37Dftd%2B037Hfs9%2Bz3p%2FfuN%2B337Xft9%2Bx37U%3D%0A&product=floor)
+\[1\]:[【教程】某些游戏中Google Play 许可证验证的简单除方法](http://bbs.huluxia.com/wap/thread/875715.html?para=37Hftt%2Bz37Dftd%2B037Hfs9%2Bz3p%2FfuN%2B337Xft9%2Bx37U%3D%0A&product=floor)
 
 \[2\]:[【非原创】【教程】手动破解Minecraft授权验证](http://bbs.huluxia.com/wap/thread/659805.html?para=37Hftt%2Bx37Xfud%2B137jfuN%2B13p%2Fftt%2B137nfuN%2Bw37U%3D%0A&product=floor)
 
