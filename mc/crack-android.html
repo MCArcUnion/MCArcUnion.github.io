@@ -16,19 +16,66 @@
     <p>本页面记录了如何破解 Android 版的正版验证和原版验证。</p>
     <br>
     <h2>破解正版验证</h2>
-        <p>Android 版加入过两次正版验证。第一次是从携带版0.1.0<a
-            href="https://minecraft.fandom.com/zh/wiki/%E6%90%BA%E5%B8%A6%E7%89%880.1.0">到携带版0.3.x<a
-            href="https://minecraft.fandom.com/zh/wiki/%E6%90%BA%E5%B8%A6%E7%89%880.3.0">，第二次是从<a
+    <p>Android 版加入过两次正版验证。第一次是从携带版0.1.0<a
+            href="https://minecraft.fandom.com/zh/wiki/%E6%90%BA%E5%B8%A6%E7%89%880.1.0">到携带版0.3.x</a>><a
+            href="https://minecraft.fandom.com/zh/wiki/%E6%90%BA%E5%B8%A6%E7%89%880.3.0">，第二次是从</a>><a
             href="https://minecraft.fandom.com/zh/wiki/%E5%9F%BA%E5%B2%A9%E7%89%881.2.0.7">基岩版1.2.0.7</a>至今。</p>
     <h2>准备工作:</h2>
-        <blockquote>
-            <p>MT管理器(或其它可以修改安装包dex的应用)</p>
-            <p>Minecraft安装包</p>
-        </blockquote>
-        <p>注：若是apks格式的Minecraft请转成apk格式（通过“NP管理器(推荐)”或“MT管理器(要VIP)”或“ApkTool M(时间很久)”）后再进行操作！</p>
-    <h2>开始破解:</h2>
-        <h3>0.1~0.3</h3>
-        <h3>1.2.0.7 至今</h3>
+    <blockquote>
+        <p>MT管理器(或其它可以修改安装包dex的应用)</p>
+        <p>Minecraft安装包</p>
+        <p>Apktool M(可选)</p>
+        <p>NP管理器(可选)</p>
+    </blockquote>
+
+    <p>注：若是apks格式的Minecraft请转成apk格式（通过“NP管理器(推荐)”或“MT管理器(要VIP)”或“ApkTool M(时间很久)”）</p>
+    <p>或者将apks安装包zip解压后对base.apk进行破解操作，并把其余的分包重新签名（保持与base.apk的签名一致），最后再次将各包zip压缩后便可以用apks安装器（如SAI）安装应用</p>
+    <p>↳可以在分包内添加并删除文件来实现对分包的签名</p>
+
+    <h2>1.16.100.53以前的破解教程:</h2>
+    <h3>方案一［1］：</h3>
+    <p>①打开我的世界的classes.dex</p>
+    <p>②打开com-googleplay-licensing-LicenseChecker</p>
+    <p>③删掉第638行的代码if-eqz v1, :cond_17</p>
+    <p>若在638行找不到对应代码,可以试着在"LicenseChecker"类中寻找"checkAccess"函数,并在此函数下寻找对应代码,找到后删掉它,毕竟不同的版本，代码位置可能不同</p>
+
+
+    <h3>方案二［2］：</h3>
+    <p>①打开我的世界的classes.dex</p>
+    <p>②打开com-googleplay-licensing-ServerManagedPolicy</p>
+    <p>③找到第653行，把const/4 v2, 0x0改为const/4 v2, 0x1</p>
+    <p>若在653行找不到对应代码,可以试着在"ServerManagedPolicy"类中寻找"allowAccess"函数,并在此函数下寻找对应代码,找到后删掉它,毕竟不同的版本，代码位置可能不同</p>
+
+    <h2>1.16.100.53以后，官方改变了Dex，上诉方法不再有效</h2>
+    <h3>1.16.100.53以后的破解教程:</h3>
+    <p>①打开我的世界的classes.dex</p>
+    <p>②打开com-googleplay-licensing-ServerManagedPolicy</p>
+    <p>③找到第578行，把const/4 v4, 0x0改为const/4 v4, 0x1</p>
+    <p>若在578行找不到对应代码,可以试着在"ServerManagedPolicy"类中寻找"allowAccess"函数,并在此函数下寻找对应代码,找到后删掉它,毕竟不同的版本，代码位置可能不同</p>
+
+    <h2>注意事项:</h2>
+    <p>1.16.20之前这样破解的MC是无法登录的，还要再加一步去除签名校验［3］(这个功能在mt管理器是需VIP的)</p>
+    <p>自1.16.20，不再需要去除签名检验，这样破解后可直接登录</p>
+    <p>已知葫芦侠"无垠wy(寂寞)"的破解器用的方案二［4］</p>
+    <p>在1.16.100.53以后通过"无垠wy(寂寞)"的破解器破解Minecraft将导致Minecraft闪退(测试版本:1.16.100.53)</p>
+    <p>共存版(改了包名的版本)无法正常登录（1.16.201以后的共存版似乎可以正常登录,未具体测试）［3.1］</p>
+    <h3>另：共存版登录方式【未具体测试，不一定通用】:</h3>
+    <p>如果想要共存版登录，就要让原版在外部的情况下登录上去，然后把共存版改成外部，这样共存版共享了原版的登录数据，共存版就登录了。</p>
+
+    <h3>附:大部分Minecraft安卓版下载链接</h3>
+    <h4>其余的那一小部分我觉得也没人能找得到了</h4>
+    <p>链接:https://pan.baidu.com/s/12P-WD0FbFDrv0Yt5iC4DTQ 提取码:66mi</p>
+
+    <h2>资料来源:</h2>
+    <p>［1］<br>http://bbs.huluxia.com/wap/thread/875715.html?para=37Hftt%2Bz37Dftd%2B037Hfs9%2Bz3p%2FfuN%2B337Xft9%2Bx37U%3D%0A&product=floor
+    </p>
+    <p>［2］<br>http://bbs.huluxia.com/wap/thread/659805.html?para=37Hftt%2Bx37Xfud%2B137jfuN%2B13p%2Fftt%2B137nfuN%2Bw37U%3D%0A&product=floor
+    </p>
+    <p>［3/3.1］(第六页)<br>http://bbs.huluxia.com/wap/thread/82471.html?para=37Hft9%2B037bft9%2B037ffsN%2B13p%2FfuN%2By37Tft9%2Bx%0A&product=floor
+    </p>
+    <p>［4］(第九页)<br>http://bbs.huluxia.com/wap/thread/469437.html?para=37Hft9%2B037Dfst%2B037DfuN%2Bw3p%2FftN%2B237nftN%2Bz37c%3D%0A&product=floor
+    </p>
+    <p><span class="site-footer-credits">Janwrice整理|不得用于商业用途，仅做学习交流</span></p>
 </div>
 <script src="https://cdn.staticfile.org/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://cdn.staticfile.org/twitter-bootstrap/4.6.1/js/bootstrap.min.js"></script>
