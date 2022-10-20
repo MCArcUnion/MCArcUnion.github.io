@@ -73,7 +73,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>正在维护</td>
   </tr>
   <tr>
-    <td><a href="https://pan.baidu.com/s/1NQPY3LK0tPMCNGW7xOLgkA?pwd=49r1">（百度网盘）</a></td>
+    <td><a href="https://pan.baidu.com/s/1R2m_xImA0q7jXrfHalopjA?pwd=b162">（百度网盘）</a></td>
     <td>Janwrice</td>
     <td>原版包：较全</td>
     <td>—</td>
