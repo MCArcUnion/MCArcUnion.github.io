@@ -1,11 +1,14 @@
 # 欢迎来到 Hottampist 的 Minecraft 版本库文档站
+
 这里是 Hottampist 的 Minecraft 版本库的文档站。主要用于追踪我们的计划进度，并汇集各种备份 Minecraft 的教程。本站网址如下：
- - [mcarcunion.github.io](https://mcarcunion.github.io/)
- - [mcarcunion.vercel.app](https://mcarcunion.vercel.app/)
+
+- [mcarcunion.github.io](https://mcarcunion.github.io/)
+- [mcarcunion.vercel.app](https://mcarcunion.vercel.app/)
 
 Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Android 版版本库，目前也正在收录 Windows 版。网址如下：
- - [mcarc.gitee.io](https://mcarc.gitee.io/)
- - [mcarc.github.io](https://mcarc.github.io/)（备用）
+
+- [mcarc.gitee.io](https://mcarc.gitee.io/)
+- [mcarc.github.io](https://mcarc.github.io/)（备用）
 
 <table style="text-align: center">
   <caption>Minecraft 版本库一览表<br>标 * 的表示资源来自于 zihao_il</caption>
@@ -25,19 +28,28 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>—</td>
     <td>原版包：很全</td>
     <td>—</td>
+    <td>暂时停更</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.mcappx.com/">www.mcappx.com</a><br><a href="https://www1.mcappx.com/">www1.mcappx.com（备用）</a></td>
+    <td>RemyYYZ</td>
+    <td>—</td>
+    <td>—</td>
+    <td>原版包：很全</td>
+    <td>—</td>
     <td>正在维护</td>
   </tr>
   <tr>
-    <td><a href="https://zihao-il.github.io/">zihao-il.github.io</a></td>
+    <td><a href="https://zihao-il.github.io/">zihao-il.github.io</a><br><a href="https://mc233.endyun.ltd/">mc233.endyun.ltd（静态）</a><br><a href="http://bbk.endyun.ltd//">bbk.endyun.ltd（动态）</a></td>
     <td>zihao_il</td>
-    <td>破解包：不全 *</td>
+    <td>破解包：较全 *</td>
     <td>—</td>
     <td>—</td>
     <td>—</td>
     <td>正在维护</td>
   </tr>
   <tr>
-    <td><a href="https://mcapks.com/">mcapks.com</a></td>
+    <td><a href="https://mcapks.net/">mcapks.net</a></td>
     <td>苦力怕纸</td>
     <td>破解包：较全 *</td>
     <td>—</td>
@@ -55,20 +67,11 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>正在维护</td>
   </tr>
   <tr>
-    <td><a href="https://mc233.endyun.ltd/">mc233.endyun.ltd</a></td>
-    <td>枫轻舞</td>
-    <td>破解包：较全 *</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>正在维护</td>
-  </tr>
-  <tr>
     <td><a href="https://mcbbk.blmcpia.com">mcbbk.blmcpia.com</a></td>
     <td>小黑纸菌</td>
     <td>破解包：较全 *</td>
     <td>—</td>
-    <td>—</td>
+    <td>原版包：较全</td>
     <td>—</td>
     <td>正在维护</td>
   </tr>
@@ -106,7 +109,7 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>—</td>
     <td>—</td>
     <td>原版包：较全</td>
-    <td>正在维护</td>
+    <td>停止维护</td>
   </tr>
   <tr>
     <td><a href="https://cloud.189.cn/t/VZJjy2Y77NBb">（天翼云盘）</a><br><a href="https://pan.baidu.com/s/1W-ZtXEHXNRdOs7PD6JdRxQ">（百度网盘）</a></td>
@@ -115,8 +118,9 @@ Hottampist 的 Minecraft 版本库是目前国内最大最全的 Minecraft Andro
     <td>—</td>
     <td>原版包：较全</td>
     <td>—</td>
-    <td>正在维护</td>
+    <td>停止维护</td>
   </tr>
+
   <!-- <tr>
     <td><a href=""></a></td>
     <td>—</td>
