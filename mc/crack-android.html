@@ -51,7 +51,8 @@
     <p>①打开我的世界的classes.dex</p>
     <p>②打开com-googleplay-licensing-ServerManagedPolicy</p>
     <p>③找到第578行，把const/4 v4, 0x0改为const/4 v4, 0x1</p>
-    <p>若在578行找不到对应代码,可以试着在"ServerManagedPolicy"类中寻找"allowAccess"函数,并在此函数下寻找对应代码,找到后删掉它,毕竟不同的版本，代码位置可能不同</p>
+    <p>如果const/4 v4, 0x0已经是const/4 v4, 0x1,请修改下一行的const/4 v5, 0x0为const/4 v5, 0x1</p>
+    <p>若在578行找不到对应代码,可以试着在"ServerManagedPolicy"类中寻找"allowAccess"函数,并在此函数下寻找对应代码,毕竟不同的版本，代码位置可能不同</p>
 
     <h2>注意事项:</h2>
     <p>1.16.20之前这样破解的MC是无法登录的，还要再加一步去除签名校验［3］(这个功能在mt管理器是需VIP的)</p>
