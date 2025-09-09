@@ -34,12 +34,14 @@ Android 版加入过两次正版验证。第一次是从携带版0.1.0到携带�
 + 找到`com.googleplay.licensing.ServerManagedPolicy`类
 + 找到`allowAccess`方法
 + 找到`const/4 v2, 0x0`,改为`const/4 v2, 0x1`
-### 基岩版1.16.100.53至今
+### 基岩版1.16.100.53至1.21.110.26
 + 使用MT管理器的"Dex编辑器++"功能打开Minecraft安装包的classes.dex
 + 找到`com.googleplay.licensing.ServerManagedPolicy`类
 + 找到`allowAccess`方法
 + 找到`const/4 v4, 0x0`,改为`const/4 v4, 0x1`
 + 如果`const/4 v4, 0x0`已经是`const/4 v4, 0x1`,请修改下一行的`const/4 v5, 0x0`为`const/4 v5, 0x1`
+### 基岩版1.21.120.20至今
++ 暂无方法
 
 ## 注意事项
 + 若有多个dex文件（如classes2.dex），优先查看classes.dex文件，或在破解时直接勾选所有的dex文件，也可以先合并这些dex文件再进行破解
